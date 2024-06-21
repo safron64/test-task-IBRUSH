@@ -119,6 +119,14 @@ body {
 			color: rgb(45, 26, 167);
 		}
 	}
+	label {
+		display: none;
+		position: absolute;
+		font-size: 9px;
+		color: #777;
+		top: 4px;
+		left: 10px;
+	}
 }
 
 input:focus,
@@ -277,15 +285,6 @@ textarea:focus {
 	position: relative;
 }
 
-label {
-	display: none;
-	position: absolute;
-	font-size: 9px;
-	color: #777;
-	top: 4px;
-	left: 10px;
-}
-
 .reviews {
 	padding: 50px 0;
 	&__title {
@@ -339,6 +338,14 @@ label {
 		}
 		textarea {
 			height: 100px;
+		}
+		label {
+			display: none;
+			position: absolute;
+			font-size: 9px;
+			color: #777;
+			top: 4px;
+			left: 10px;
 		}
 
 		button {
@@ -587,6 +594,15 @@ label {
 		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 		border-radius: 10px;
 
+		label {
+			display: none;
+			position: absolute;
+			font-size: 9px;
+			color: #777;
+			top: 4px;
+			left: 10px;
+		}
+
 		&__list {
 			font-size: 0.938em;
 			display: flex;
@@ -692,4 +708,3 @@ label {
 .mobile-nav--open {
 	display: flex;
 }
-

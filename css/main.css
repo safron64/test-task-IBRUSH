@@ -114,6 +114,14 @@ body {
 .modal p:last-child a {
   color: rgb(45, 26, 167);
 }
+.modal label {
+  display: none;
+  position: absolute;
+  font-size: 9px;
+  color: #777;
+  top: 4px;
+  left: 10px;
+}
 
 input:focus,
 textarea:focus {
@@ -256,15 +264,6 @@ textarea:focus {
   position: relative;
 }
 
-label {
-  display: none;
-  position: absolute;
-  font-size: 9px;
-  color: #777;
-  top: 4px;
-  left: 10px;
-}
-
 .reviews {
   padding: 50px 0;
 }
@@ -314,6 +313,14 @@ label {
 }
 .reviews #reviews__comment-form textarea {
   height: 100px;
+}
+.reviews #reviews__comment-form label {
+  display: none;
+  position: absolute;
+  font-size: 9px;
+  color: #777;
+  top: 4px;
+  left: 10px;
 }
 .reviews #reviews__comment-form button {
   background-color: #fff;
@@ -520,6 +527,14 @@ label {
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+  }
+  .mobile-nav label {
+    display: none;
+    position: absolute;
+    font-size: 9px;
+    color: #777;
+    top: 4px;
+    left: 10px;
   }
   .mobile-nav__list {
     font-size: 0.938em;
